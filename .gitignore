@@ -1,0 +1,8 @@
+.vs/
+
+*.suo
+*.vcxproj.user
+
+Debug/
+Release/
+/SoftwareRasterizer/*.ase

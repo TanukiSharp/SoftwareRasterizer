@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ase_read_faces.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ase_read_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_line.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fill_triangle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ase_extract_faces.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="malloc_error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="read_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skip_spaces.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ase_get_faces_count.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_average_depth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="create_rotation_matrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ase_get_vertices_count.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ase_extract_vertex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ase_read_vertices.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_loop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_triangle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quick_sort_faces.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compute_lighting_coef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="translate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="projection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_model.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swap_structs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init_boundaries.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_object.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_normals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_vertex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ase_compute_normal_vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rasterizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
